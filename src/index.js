@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import {HashRouter,Route,Switch } from "react-router-dom"
-import Register from './conpontent/register/Register';
-import Login from './conpontent/login/Login';
-import Main from './conpontent/main/Main';
+import Register from './containers/register/Register';
+import Login from './containers/login/Login';
+import Main from './containers/main/Main';
 
 
 ReactDOM.render(
