@@ -6,15 +6,14 @@ import Register from './containers/register/Register';
 import Login from './containers/login/Login';
 import Main from './containers/main/Main';
 
-
 ReactDOM.render(
   <HashRouter>
     <Switch>
-      <Route path="/Register" component={Register}></Route>
+      <Route path="/register/:id" component={Register}></Route>
       <Route path="/login" component={Login}></Route>
       <Route path="/" component={Main}></Route>
     </Switch>
-  </HashRouter>,
+    </HashRouter>,
   document.getElementById('root')
 );
 
